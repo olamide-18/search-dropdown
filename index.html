@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tutorials</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="new" id="dropdown">
+        <div class="class-1">
+            <input type="text" name="" placeholder="Pick Building type" id="dropdown-input" onfocus="showDropdow()">
+        </div>
+        
+        <div class="dropdown-options" id="dropdown-options">
+            <span data-building="house" onclick="selectOption(0)">house</span>
+            <span data-building="company" onclick="selectOption(1)">company</span>
+            <span data-building="building" onclick="selectOption(2)">building</span>
+            <span data-building="shop" onclick="selectOption(3)">shop</span>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
