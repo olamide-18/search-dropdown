@@ -1,0 +1,22 @@
+input{
+    padding: 10px 16px;
+    width: 165px;
+   
+    outline: none;
+
+}
+.all-2 span{
+    display: block;
+    padding: 20px;
+    transition: all 1s ease;
+    
+}
+.all-2{
+    width: 200px;
+    background-color: red;
+    display: none;
+    
+}
+span:hover{
+    background-color: blue;
+}
